@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,41 +8,66 @@
     <title>Document</title>
     <link rel="stylesheet" href="formulario.css">
 </head>
+
 <body>
-    <header></header>
+    <header><img src="assets/twitch-logo1.webp"> <h1>Unete a Twitch hoy</h1></header>
     <main>
-        <form action="/encuesta" method="post">
-            <div class="container"></div>
-            <label for="Nombre y Apellido">Nombre y Apellido:</label>
-            <input type="text"> 
+        <form action="/crear cuenta" method="post">
+                
+                    <label for="Nombre">Nombre de usuario:</label>
+                <input type="text">
 
-            <label for="Correo electronico">Correo electronico:</label>
-            <input type="email"> 
+                <label for="Contraseña">Contraseña:</label>
+                <input type="password">
 
-            <label for="Fecha de nacimiento">Fecha de nacimiento:</label>
-            <input type="date"> 
+                <label for="Correo electronico">Correo electronico:</label>
+                <input type="email">
 
-            <label for="Dni">DNI</label>
-            <input type="number">
+                <label for="Fecha de nacimiento">Fecha de nacimiento:</label>
+                <input type="date">
 
-            <label for="Telefono">Telefono:</label>
-            <input type="tel"> 
+                <label for="Dni">DNI:</label>
+                <input type="number">
 
-            <label for="X">Usuario de X:</label>
-            <input type="text"> 
+                <label for="Telefono">Telefono:</label>
+                <input type="tel">
 
-            <label for="Instagram">Usuario de instagram:</label>
-            <input type="text"> 
+               <select name="Provincia" id="Provincia">
+                <option value="Selecciona donde vivis"></option>
+                <option value="Buenos Aires"></option>
+                <option value="Ciudad Autónoma de Buenos Aires"></option>
+                <option value="Catamarca"></option>
+                <option value="Chaco"></option>
+                <option value="Chubut"></option>
+                <option value="Córdoba"></option>
+                <option value="Corrientes"></option>
+                <option value="Entre Ríos"></option>
+                <option value="Formosa"></option>
+                <option value="Jujuy"></option>
+                <option value="La pampa"></option>
+                <option value="La Rioja"></option>
+                <option value="Mendoza"></option>
+                <option value="Misiones"></option>
+                <option value="Neuquén"></option>
+                <option value="Rio Negro"></option>
+                <option value="San Juan"></option>
+                <option value="Salta"></option>
+                <option value="San Luis"></option>
+                <option value="Santa Cruz"></option>
+                <option value="Santa Fe"></option>
+                <option value="Santiago del Estero"></option>
+                <option value="Tierra del Fuego, Antártida e Islas del Atlántico Sur"></option>
+                <option value="Tucumán"></option>
 
-            <label for="Provincia">Provincia:</label>
-            <input type="text"> 
 
-            <label for="Ciudad">Ciudad:</label>
-            <input type="text"> 
+               </select>
+
+                <label for="Ciudad">Ciudad:</label>
+                <input type="text">
 
             
-
-    
+               
+         
         </form>
     </main>
     <footer></footer>
