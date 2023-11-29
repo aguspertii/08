@@ -1,0 +1,47 @@
+html {
+    background-image: url(assest/twitch.png);
+}
+
+img {
+    width: 60px;
+}
+h1 {
+    color: rgb(255, 255, 255);
+}
+main {
+    margin:160px;
+}
+
+fieldset {
+    width: 450px;
+    background-color: rgb(36, 36, 36);
+    margin:auto;
+    padding: 40px;
+   border-radius: 5px;
+   border: 0px;
+
+    
+}
+
+.info {
+   padding: 5px;
+}
+
+.final {
+    padding: 5px;
+
+}
+
+input {
+    background-color: rgb(35, 35, 35);
+    border-color: rgb(44, 44, 44);
+   color: rgb(255, 255, 255);
+   border-radius: 5px;
+}
+
+label {
+    color: rgb(255, 255, 255);
+}
+
+
+

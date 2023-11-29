@@ -6,72 +6,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="formulario.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header><img src="assets/twitch-logo1.webp"> <h1>Unete a Twitch hoy</h1></header>
+
+
+
     <main>
-        <form action="/crear cuenta" method="post">
-                
+        <fieldset>
+            <div class="titulo">
+                <img src="assest/logo.png">
+            <h1>Únete a Twitch hoy</h1>
+        </div>
+            <form action="/crear cuenta" method="post">
+
+                <div class="info">
                     <label for="Nombre">Nombre de usuario:</label>
-                <input type="text">
+                    <input type required="text">
+                </div>
+                <div class="info">
+                    <label for="Contraseña">Contraseña:</label>
+                    <input type required="password">
+                </div>
+                <div class="info">
+                    <label for="Correo electronico">Correo electronico:</label>
+                    <input type required="email">
+                </div>
+                <div class="info">
+                    <label for="Fecha de nacimiento">Fecha de nacimiento:</label>
+                    <input type="date">
+                </div>
+                <div class="info">
+                    <label for="Telefono">Telefono:</label>
+                    <input type required="tel">
+                </div>
+                <div class="info">
+                    <label for="Provincia">Provincia</label>
+                    <select name="Provincia" id="Provincia">
+                        <option value="Selecciona donde vivis"></option>
+                        <option value="Buenos Aires"></option>
+                        <option value="Ciudad Autónoma de Buenos Aires"></option>
+                        <option value="Catamarca"></option>
+                        <option value="Chaco"></option>
+                        <option value="Chubut"></option>
+                        <option value="Córdoba"></option>
+                        <option value="Corrientes"></option>
+                        <option value="Entre Ríos"></option>
+                        <option value="Formosa"></option>
+                        <option value="Jujuy"></option>
+                        <option value="La pampa"></option>
+                        <option value="La Rioja"></option>
+                        <option value="Mendoza"></option>
+                        <option value="Misiones"></option>
+                        <option value="Neuquén"></option>
+                        <option value="Rio Negro"></option>
+                        <option value="San Juan"></option>
+                        <option value="Salta"></option>
+                        <option value="San Luis"></option>
+                        <option value="Santa Cruz"></option>
+                        <option value="Santa Fe"></option>
+                        <option value="Santiago del Estero"></option>
+                        <option value="Tierra del Fuego, Antártida e Islas del Atlántico Sur"></option>
+                        <option value="Tucumán"></option>
 
-                <label for="Contraseña">Contraseña:</label>
-                <input type="password">
 
-                <label for="Correo electronico">Correo electronico:</label>
-                <input type="email">
-
-                <label for="Fecha de nacimiento">Fecha de nacimiento:</label>
-                <input type="date">
-
-                <label for="Dni">DNI:</label>
-                <input type="number">
-
-                <label for="Telefono">Telefono:</label>
-                <input type="tel">
-
-               <select name="Provincia" id="Provincia">
-                <option value="Selecciona donde vivis"></option>
-                <option value="Buenos Aires"></option>
-                <option value="Ciudad Autónoma de Buenos Aires"></option>
-                <option value="Catamarca"></option>
-                <option value="Chaco"></option>
-                <option value="Chubut"></option>
-                <option value="Córdoba"></option>
-                <option value="Corrientes"></option>
-                <option value="Entre Ríos"></option>
-                <option value="Formosa"></option>
-                <option value="Jujuy"></option>
-                <option value="La pampa"></option>
-                <option value="La Rioja"></option>
-                <option value="Mendoza"></option>
-                <option value="Misiones"></option>
-                <option value="Neuquén"></option>
-                <option value="Rio Negro"></option>
-                <option value="San Juan"></option>
-                <option value="Salta"></option>
-                <option value="San Luis"></option>
-                <option value="Santa Cruz"></option>
-                <option value="Santa Fe"></option>
-                <option value="Santiago del Estero"></option>
-                <option value="Tierra del Fuego, Antártida e Islas del Atlántico Sur"></option>
-                <option value="Tucumán"></option>
-
-
-               </select>
-
-                <label for="Ciudad">Ciudad:</label>
-                <input type="text">
-
-            
-               
-         
-        </form>
+                    </select>
+                </div>
+                <div class="info">
+                    <label for="Ciudad">Ciudad:</label>
+                    <input type="text">
+                </div>
+                <div class="final">
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+            </form>
+            <a href="formulario2.html">¿Ya tienes cuenta de Twitch? Inicia Sesión</a>
+        </fieldset>
     </main>
-    <footer></footer>
-
+   
 
 
 </body>
